@@ -1,0 +1,25 @@
+{
+    "name": "student-crud-api",
+    "version": "1.0.0",
+    "description": "student API",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/punit78/Student-CRUD-API.git"
+    },
+    "author": "puneet",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/punit78/Student-CRUD-API/issues"
+    },
+    "homepage": "https://github.com/punit78/Student-CRUD-API#readme",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "mongoose": "^5.4.0"
+    }
+}
