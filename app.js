@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const student = require('./model/student') //import srudent schema
 var app = express();
 
-//use bodyParser middleware
+//use bodyParser middleware so that every request passes through it
 app.use(bodyParser.json());
 
 var host = 3000;
